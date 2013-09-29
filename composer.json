@@ -4,6 +4,7 @@
         "zendframework/zendframework": "2.2.*"
     },
     "require-dev": {
-        "mikey179/vfsstream": "1.2.*"
+        "mikey179/vfsstream": "1.2.*",
+        "phpunit/phpunit": "3.7.*"
     }
 }

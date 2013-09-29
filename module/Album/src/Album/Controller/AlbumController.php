@@ -65,7 +65,7 @@ class AlbumController extends AbstractActionController
         try {
             $album = $this->getAlbumTable()->getAlbum($id);
         } catch (\Exception $e) {
-            $this->redirect()->toRoute('album', array('action' => 'index'));
+            $this->redirect()->toRoute('album');
         }
 
         $form = new AlbumForm();
