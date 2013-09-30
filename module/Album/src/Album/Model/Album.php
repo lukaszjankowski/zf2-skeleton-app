@@ -26,6 +26,7 @@ class Album implements InputFilterAwareInterface
      * @var InputFilter
      */
     private $inputFilter;
+
     /**
      * @param string $artist
      */
@@ -95,6 +96,7 @@ class Album implements InputFilterAwareInterface
             'artist' => $this->getArtist()
         );
     }
+
     /**
      * Set input filter
      *
