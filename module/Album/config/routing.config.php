@@ -2,6 +2,16 @@
 return array(
     'router' => array(
         'routes' => array(
+            'home' => array(
+                'type' => 'literal',
+                'options' => array(
+                    'route' => '/',
+                    'defaults' => array(
+                        'controller' => 'Application\Controller\Index',
+                        'action' => 'index'
+                    )
+                ),
+            ),
             'album' => array(
                 'type' => 'segment',
                 'options' => array(
